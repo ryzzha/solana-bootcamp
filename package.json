@@ -1,0 +1,20 @@
+{
+  "name": "solana-bootcamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate": "esrun generate-keypair.ts",
+    "load": "esrun load-keypair.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@solana-developers/helpers": "^2.8.1",
+    "@solana/web3.js": "^1.98.0",
+    "dotenv": "^16.4.7",
+    "esrun": "^3.2.26"
+  }
+}
