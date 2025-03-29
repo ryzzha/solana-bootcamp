@@ -4,17 +4,22 @@
   "main": "index.js",
   "scripts": {
     "generate": "esrun generate-keypair.ts",
-    "load": "esrun load-keypair.ts"
+    "load": "esrun load-keypair.ts",
+    "check": "tsx check-balance.ts",
+    "send": "tsx send-sol.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "description": "",
   "dependencies": {
     "@solana-developers/helpers": "^2.8.1",
     "@solana/web3.js": "^1.98.0",
     "dotenv": "^16.4.7",
     "esrun": "^3.2.26"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3"
   }
 }
