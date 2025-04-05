@@ -6,7 +6,11 @@
     "generate": "esrun generate-keypair.ts",
     "load": "esrun load-keypair.ts",
     "check": "tsx check-balance.ts",
-    "send": "tsx send-sol.ts"
+    "send:sol": "tsx send-sol.ts",
+    "create:mint": "tsx create-token-mint.ts",
+    "create:account": "tsx create-token-account.ts",
+    "create:metadata": "tsx create-token-metadata.ts",
+    "send:tokens": "tsx mint-tokens.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +18,7 @@
   "type": "module",
   "description": "",
   "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
     "@solana-developers/helpers": "^2.8.1",
     "@solana/web3.js": "^1.98.0",
     "dotenv": "^16.4.7",
